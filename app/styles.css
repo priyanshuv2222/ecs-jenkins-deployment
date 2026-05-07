@@ -1,0 +1,61 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deploy-btn {
+  padding: 10px 20px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* 🔥 Hover */
+.deploy-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #3b82f6;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* 🔥 Hover */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.services {
+  margin-top: 40px;
+}
+
+.service-card {
+  display: flex;
+  justify-content: space-between;
+  background: #1e293b;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.status.green { color: lightgreen; }
+.status.yellow { color: orange; }
+.status.red { color: red; }
