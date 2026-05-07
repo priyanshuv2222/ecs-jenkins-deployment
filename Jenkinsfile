@@ -5,7 +5,7 @@ pipeline {
     environment {
         APP_DIR     = "/opt/devops-app"
         AWS_REGION  = "us-east-1"
-        ECR_URI     = "<PASTE_YOUR_ECR_URL_HERE>"
+        ECR_URI     = "381492189413.dkr.ecr.us-east-1.amazonaws.com/devops-repo"
         ECS_CLUSTER = "devops-cluster"
         ECS_SERVICE = "app-service"
     }
